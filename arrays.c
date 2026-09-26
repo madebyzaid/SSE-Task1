@@ -1,8 +1,14 @@
 #include <stdio.h>
 int main() {
-    int arr[10];
-    for (int i = 0; i < 10; i++) {
-        printf("%d\n", arr[i]);
-    }
+    int grades[3];
+    int average;
+
+    grades[0] = 82;
+    grades[1] = 83;
+    grades[2] = 90;
+
+    average = (grades[0] + grades[1] + grades[2]) / 3;
+    printf("The average of the 3 grades is: %d", average);
+
     return 0;
 }
